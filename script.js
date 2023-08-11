@@ -1,77 +1,61 @@
 
 let warehouse = {
     racks1: {
-    bay1: {
     rackName: "rack rack-1",
-    bayClass: "bay bay-1",
     status: true,
     number: 5,
-    width: "140.25px",
-    height: "60px",
-    left: "5px",
-    top: "25px",
-    },
-    bay2: {
-    rackName: "rack rack-1",
-    bayClass: "bay bay-2",
-    status: true,
-    number: 5,
-    width: "140.25px",
-    height: "60px",
-    left: "5px",
-    top: "25px",
-    },
     rackClass: "rack rack-1",
-    rackId: "rack rack-1"
+    rackId: "aB3245h"
   },
-  
   racks2: {
-    bay1: {
     rackName: "rack rack-2",
-    bayClass: "bay bay-1",
     status: true,
     number: 5,
-    width: "140.25px",
-    height: "60px",
-    left: "5px",
-    top: "25px",
-    },
-    bay2: {
-    rackName: "rack rack-2",
-    bayClass: "bay bay-2",
-    status: true,
-    number: 5,
-    width: "140.25px",
-    height: "60px",
-    left: "5px",
-    top: "25px",
-    },
     rackClass: "rack rack-2",
-    rackId: "rack rack-2"
-  }
-  
-  
+    rackId: "aB2245h"
+  },
+  };
+
+  let rack = {
+    bay1: {
+    bayName: "bay bay-1",
+    status: true,
+    number: 5,
+    bayClass: "bay bay-1",
+    bayId: "aB32432h",
+    rackClass: "rack rack-1",
+    rackId: "aB3245h"
+  },
+  bay2: {
+    bayName: "bay bay-2",
+    status: true,
+    number: 5,
+    bayClass: "bay bay-2",
+    bayId: "aB52432h",
+    rackClass: "rack rack-2",
+    rackId: "aB2245h"
+  },
   };
   
   
   let racksAdd = Object.values(warehouse);
-  for(let i=0; i< racksAdd.length; i++){
   
+  for(let i=0; i< racksAdd.length; i++){
+    console.log(racksAdd[i]);
     var newDivR = document.createElement("div");
-      newDivR.id = `${racksAdd[i].rackClass}`;
+      newDivR.id = `${racksAdd[i].rackId}`;
     newDivR.className = `${racksAdd[i].rackClass}`;
     var respuesta = document.getElementById("warehouse");
     respuesta.appendChild(newDivR);
-    console.log(racksAdd[i].rackClass);
   }
   
-  let valores = Object.values(warehouse.racks1); // valores = ["Scott", "Negro", true, 5];
+  let bayAdd = Object.values(rack); // valores = ["Scott", "Negro", true, 5];
   
-  for(let i=0; i< valores.length; i++){
+  for(let i=0; i< bayAdd.length; i++){
+    console.log(bayAdd[i].rackClass);
   var newDivB = document.createElement("div");
-  newDivB.id = `${valores[i].bayClass}`;
-  newDivB.className = `${valores[i].bayClass}`;
-  var responseB = document.getElementById("rack rack-2");
+  newDivB.id = `${bayAdd[i].bayClass}`;
+  newDivB.className = `${bayAdd[i].bayClass}`;
+  var responseB = document.getElementById(bayAdd[i].rackId);
   responseB.appendChild(newDivB);
-  
   }
