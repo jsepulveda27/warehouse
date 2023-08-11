@@ -1,3 +1,1571 @@
-body{
-    background-color: black;
-}
+.workspace {
+    height: 100%;
+    position: relative;
+    width: 100vh;
+    top: 10px;
+    left: 10px;
+    font: 700 12px system-ui;
+  }
+  
+  .warehouse {
+    position: relative;
+    width: 2230px;
+    height: 3570px;
+    top: 10px;
+    bottom: 30px;
+    right: 10px;
+    left: 10px;
+    border-style: solid;
+    border-color: rgb(11, 83, 69);
+    background-color: #fafcfa;
+    border-radius: 3px;
+    transform: scale(1);
+  }
+  
+  .rack{
+      position: absolute;
+      background-color: rgb(211, 84, 0);
+      border-radius: 3px;
+      cursor: pointer;
+  }
+  .rack-1 {
+    width: 500px;
+    height: 90px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .rack-2 {
+    width: 1055px;
+    height: 90px;
+    top: 10px;
+    left: 770px;
+  }
+  
+  .rack-3 {
+    width: 90px;
+    height: 1790px;
+    top: 195px;
+    left: 10px;
+   
+  }
+  
+  .rack-4 {
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 195px;
+  }
+  
+  .rack-5 {
+    
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 285px;
+  }
+  
+  .rack-6 {
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 470px;
+  }
+  
+  .rack-7 {
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 560px;
+  }
+  
+  .rack-8 {
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 745px;
+  }
+  
+  .rack-9 {
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 835px;
+  }
+  
+  .rack-10 {
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 1020px;
+  }
+  
+  .rack-11 {
+    width: 90px;
+    height: 1680px;
+    top: 195px;
+    left: 1110px;
+  }
+  
+  .rack-12 {
+    width: 90px;
+    height: 1600px;
+    top: 275px;
+    left: 1295px;
+  }
+  
+  .rack-13 {
+    width: 90px;
+    height: 1600px;
+    top: 275px;
+    left: 1385px;
+  }
+  
+  .rack-14 {
+    width: 1285px;
+    height: 90px;
+    top: 1990px;
+    left: 30px;
+  }
+  
+  .rack-15 {
+    width: 90px;
+    height: 2745px;
+    top: 280px;
+    left: 1570px;
+  }
+  
+  .rack-16 {
+    width: 1030px;
+    height: 90px;
+    top: 3210px;
+    left: 1050px;
+  }
+  
+  .rack-17 {
+    width: 90px;
+    height: 1175px;
+    top: 1852.5px;
+    left: 1845px;
+  }
+  
+  .rack-18 {
+    width: 90px;
+    height: 1175px;
+    top: 1852.5px;
+    left: 1935px;
+  }
+  
+  .rack-19 {
+    width: 90px;
+    height: 1397.5px;
+    top: 1882.5px;
+    left: 2120px;
+  }
+  
+  .rack-20 {
+    width: 350px;
+    height: 90px;
+    top: 195px;
+    left: 1570px;
+  }
+  
+  .rack-21 {
+    width: 180px;
+    height: 85px;
+    top: 195px;
+    left: 1295px;
+  }
+  
+  .rack-22 {
+    width: 180px;
+    height: 90px;
+    top: 3025px;
+    left: 1570px;
+  }
+  
+  .rack-23 {
+    width: 180px;
+    height: 90px;
+    top: 3025px;
+    left: 1845px;
+  }
+  
+  
+  .rack-24 {
+    width: 90px;
+    height: 390px;
+    top: 1000px;
+    left: 2120px;
+  }
+  
+  .rack-25 {
+    width: 90px;
+    height: 1175px;
+    top: 1852.5px;
+    left: 1660px;
+  }
+  
+  .rack-26 {
+    width: 175px;
+    height: 150px;
+    top: 2700px;
+    left: 940px;
+  }
+  
+  .rack-27 {
+    width: 175px;
+    height: 150px;
+    top: 2200px;
+    left: 940px;
+  }
+  
+  .bay{
+    position: absolute;
+    background-color: rgb(39, 174, 96);
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .bay-1 {
+    width: 140.25px;
+    height: 60px;
+    left: 5px;
+    top: 25px;
+  }
+  
+  .bay-2 {
+    width: 140.25px;
+    height: 60px;
+    left: 200px;
+    top: 25px;
+  }
+  
+  
+  
+  .aisle-1 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 195px;
+    left: 130px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-2 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 195px;
+    left: 400px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-3 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 195px;
+    left: 680px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-4 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 195px;
+    left: 950px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-5 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 195px;
+    left: 1230px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-6 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 195px;
+    left: 1500px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-shop {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 195px;
+    left: 1850px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-7 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 1700px;
+    left: 1780px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-8 {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 1700px;
+    left: 2050px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aisle-shipping {
+    position: absolute;
+    width: 45px;
+    height: 1790px;
+    top: 1700px;
+    left: 1500px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: rgb(25, 66, 79);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  
+  
+  .bin-two-spot-h {
+    position: relative;
+    height: 60px;
+    left: 5px;
+    width: 112.5px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-two-spot-h-1 {
+    position: relative;
+    height: 60px;
+    left: 5px;
+    width: 170px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-twoMedio-spot-h {
+    position: relative;
+    height: 60px;
+    left: 5px;
+    width: 140.25px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-three-spot-h {
+    position: relative;
+    width: 165px;
+    left: 5px;
+    height: 60px;
+    top: 5px;
+    bottom: 10px;
+    right: 10px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-one-spot-v {
+    position: relative;
+    width: 60px;
+    left: 5px;
+    height: 60px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-one-spot-v-izq {
+    position: relative;
+    width: 60px;
+    left: 25px;
+    height: 60px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-one-spot-h-low {
+    position: relative;
+    width: 60px;
+    left: 5px;
+    height: 60px;
+    top: 25px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-two-spot-h-low {
+    position: relative;
+    width: 112.5px;
+    left: 5px;
+    height: 60px;
+    top: 25px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-twoMedio-spot-h-low {
+    position: relative;
+    width: 140.25px;
+    left: 5px;
+    height: 60px;
+    top: 25px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-three-spot-h-low {
+    position: relative;
+    width: 165px;
+    left: 5px;
+    height: 60px;
+    top: 25px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .bin-two-spot-v-izq {
+    position: relative;
+    width: 60px;
+    left: 25px;
+    height: 112.5px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-two-spot-v {
+    position: relative;
+    width: 60px;
+    left: 5px;
+    height: 112.5px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-twoMedio-spot-v {
+    position: relative;
+    width: 60px;
+    left: 5px;
+    height: 140.25px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-twoMedio-spot-v-izq {
+    position: relative;
+    width: 60px;
+    left: 25px;
+    height: 140.25px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-three-spot-v {
+    position: relative;
+    width: 60px;
+    left: 5px;
+    height: 168px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-three-spot-v-izq {
+    position: relative;
+    width: 60px;
+    left: 25px;
+    height: 168px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+  }
+  
+  .bin-sign {
+    position: relative;
+    width: 80px;
+    left: 5px;
+    height: 40px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+  }
+  
+  .bin-signR12 {
+    position: relative;
+    width: 80px;
+    left: 5px;
+    height: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+  }
+  
+  .bin-signR13 {
+    position: relative;
+    width: 80px;
+    left: 5px;
+    height: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    background-color: rgb(255, 255, 0);
+    border-radius: 10px;
+  }
+  
+  
+  
+  .bin-sign-h {
+    position: relative;
+    height: 80px;
+    left: 5px;
+    width: 40px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+  }
+  
+  .bin-sign-shipping {
+    position: relative;
+    height: 20px;
+    left: 5px;
+    width: 165px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+  }
+  
+  .bin-sign-bins-twoSpots {
+    position: relative;
+    height: 112.5px;
+    left: 65px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .bin-sign-bins-oneSpots {
+    position: relative;
+    height: 60px;
+    left: 65px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .bin-sign-bins-twoMedioSpots {
+    position: relative;
+    height: 140.25px;
+    left: 65px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-izq {
+    position: relative;
+    height: 112.5px;
+    left: 5px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .bin-sign-bins-oneSpots-izq {
+    position: relative;
+    height: 60px;
+    left: 5px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .bin-sign-bins-twoMedioSpots-izq {
+    position: relative;
+    height: 140.25px;
+    left: 5px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+    .bin-sign-bins-twoSpots-horizontal-1 {
+    position: relative;
+    height: 20px;
+    width: 112.5px;      
+    left: 5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-Rack14 {
+    position: relative;
+    height: 20px;
+    width: 170px;      
+    left: 5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  
+  .bin-sign-bins-twoSpots-horizontal-post-1 {
+    position: absolute;
+    height: 20px;
+    width: 140.25px;      
+    left: 45px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-post-2 {
+    position: absolute;
+    height: 20px;
+    width: 140.25px;      
+    left: 185.25px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-post-3 {
+    position: absolute;
+    height: 20px;
+    width: 140.25px;      
+    left: 325.50px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-post-4 {
+    position: absolute;
+    height: 20px;
+    width: 140.25px;      
+    left: 465.75px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-post-5 {
+    position: absolute;
+    height: 20px;
+    width: 140.25px;      
+    left: 606px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-post-6 {
+    position: absolute;
+    height: 20px;
+    width: 140.25px;      
+    left: 746.25px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-post-7 {
+    position: absolute;
+    height: 20px;
+    width: 140.25px;      
+    left: 886.5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  
+  .bin-sign-bins-twoSpots-horizontal-high-1 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 45px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-2 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 157.5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-3 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 270px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-4 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 382.5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-5 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 495px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-6 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 607.5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-7 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 720px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-8 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 832.5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-9 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 945px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-10 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 1057.5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoSpots-horizontal-high-11 {
+    position: absolute;
+    height: 20px;
+    width: 112.5px;      
+    left: 1170px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-twoMedioSpots-horizontal-1 {
+    position: relative;
+    height: 20px;
+    width: 140.25px;      
+    left: 5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bin-sign-bins-threeSpots-horizontal-1 {
+    position: relative;
+    height: 20px;
+    width: 165px;      
+    left: 5px;
+    top: 5px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;   
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+    margin: auto;
+  }
+  
+  
+  .bin-sign-bins-twoMedioSpots {
+  position: relative;
+    height: 140.25px;
+    left: 65px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .bin-sign-bins-threeSpots {
+    position: relative;
+    height: 168px;
+    left: 65px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .bin-sign-bins-threeSpots-izq {
+    position: relative;
+    height: 168px;
+    left: 5px;
+    width: 20px;
+    top: 5px;
+    bottom: 5px;
+    right: 5px;;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(25, 66, 79);
+    text-align: center;
+     margin: auto;
+  }
+  
+  .spot-empty-h {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 2.5px;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-radius: 10px;
+  }
+  
+  .spot-empty-v {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 2.5px;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-radius: 10px;
+  }
+  
+  .spot-horizontal-1 {
+    left: 2.5px;
+  }
+  
+  .spot-horizontal-14 {
+    left: 20px;
+  }
+  
+  .spot-horizontal-2 {
+    left: 55px;
+  }
+  
+  .spot-horizontal-24 {
+    left: 90px;
+  }
+  
+  .spot-horizontal-3 {
+    left: 107.5px;
+  }
+  
+  .spot-vertical-1 {
+    top: 2.5px;
+  }
+  
+  .spot-vertical-2 {
+    top: 55px;
+  }
+  
+  .spot-vertical-3 {
+    top: 107.5px;
+  }
+  
+  .spot-empty-vMedio {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 2.5px;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-radius: 10px;
+  }
+  
+  .spot-vertical-Medio {
+    top: 107.5px;
+  }
+  
+  
+  .spot-empty-hMedio {
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    top: 2.5px;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    border-radius: 10px;
+  }
+  
+  .spot-horizontal-Medio {
+    left: 107.5px;
+  }
+  
+  
+  .spot-horizontal-full-v {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 2.5px;
+    bottom: 10px;
+    right: 10px;
+    border-top-style: dashed;
+    border-right-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+    background-color: rgb(250, 128, 114);
+    border-radius: 10px;
+    float: left;
+  }
+  
+  
+  
+  
+  /* */
+  
+  input {
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 5px solid #CCD1E4;
+    font-weight: 600;
+  }
+  
+  .resaltarColor {
+    background: rgb(57, 255, 20);
+  }
+  
